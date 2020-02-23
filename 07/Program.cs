@@ -30,7 +30,7 @@ namespace _07
         {
             var finalResult = "";
             //Inner function needs 4 parameters, but for user it's more natural to only have 1.
-            GenerateAllParenthesisCombinations(3, 3, ref finalResult);
+            GenerateAllParenthesisCombinations(n, n, ref finalResult);
             finalResult = finalResult.Remove(finalResult.Length - 2, 2);
             return finalResult;
         }
